@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Laboratorio 1x</title>
+	<meta charset="UTF-8">
+	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="wrapper col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
+		<h1> Encuesta </h1>
+		<p>Esta es una encuesta de servicio de los buses de Agua Caliente de Cartago, donde 5 es excelente y 1 es malo.</p>
+		<!-- metodo post -->
+		<form class="form-signin" method="post" action="/">
+			<label>1. ¿Considera que el trato de los choferes es?</label>
+			<div class="radio">
+				<label>
+		         <input type="radio" name="pregunta1" id="pregunta1" value="1" checked>1
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta1" id="pregunta1" value="2" checked>2
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta1" id="pregunta1" value="3" checked>3
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta1" id="pregunta1" value="4" checked>4
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta1" id="pregunta1" value="5" checked>5
+                </label>
+             </div>
+	      <br>
+
+	      <label>2. ¿Considera que las unidades de buses se encuentran en ___ estado?</label>
+			<div class="radio">
+				<label>
+		         <input type="radio" name="pregunta2" id="pregunta2" value="1" checked>1
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta2" id="pregunta2" value="2" checked>2
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta2" id="pregunta2" value="3" checked>3
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta2" id="pregunta2" value="4" checked>4
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta2" id="pregunta2" value="5" checked>5
+                </label>
+             </div>
+	      <br>
+
+	       <label>3. ¿Considera que la tarifa es justa?</label>
+			<div class="radio">
+				<label>
+		         <input type="radio" name="pregunta3" id="pregunta3" value="si" checked>Si
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta3" id="pregunta3" value="no" checked>No
+                </label>
+             </div>
+	      <br>
+
+	      <label>4. ¿Considera que los asientos están limpios y son cómodos?</label>
+			<div class="radio">
+				<label>
+		         <input type="radio" name="pregunta4" id="pregunta4" value="si" checked>Si
+                </label>
+             </div>
+             <div class="radio">
+				<label>
+		         <input type="radio" name="pregunta4" id="pregunta4" value="no" checked>No
+                </label>
+             </div>
+	      <br>
+	            <label>5. ¿Podría darnos una opinión general del servicio?</label>
+				<input class="form-control" type="text" id="idMen" name="opinion" placeholder="Escriba aqui su opinion">
+				<br/>
+
+				<input class="btn btn-success" type="submit" value="enviar">
+		</form>
+	</div>
+</body>
+</html>
